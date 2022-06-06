@@ -102,3 +102,138 @@
 .ParentesisCierra{
     color:rgb(145, 255, 0);
 }
+
+
+.VariableCircle{
+    background:aqua;
+}
+
+.NumeroEnteroCircle{
+    background:rgb(15, 107, 107);
+}
+
+.NumeroRealCircle{
+    background:rgb(123, 255, 0);
+}
+
+.KeywordCircle{
+    background:rgb(255, 0, 64);
+}
+
+.SumaCircle{
+    background:rgb(229, 174, 255);
+}
+
+.PuntoCircle{
+    background:rgb(71, 23, 243);
+}
+
+
+.ComaCircle{
+    background:rgb(68, 36, 36);
+}
+
+
+.PuntoyComaCircle{
+    background:rgb(233, 114, 183);
+}
+
+
+.MultiplicacionCircle{
+    background:rgb(255, 4, 87);
+}
+
+
+.DivisionCircle{
+    background:rgb(245, 239, 153);
+}
+
+
+.PotenciaCircle{
+    background:rgb(92, 76, 66);
+}
+
+
+.FuncionCircle{
+    background:rgb(255, 235, 55);
+}
+
+.ComentarioCircle{
+    background:rgb(117, 156, 105);
+}
+
+.IgualCircle{
+    background:rgb(0, 0, 0);
+}
+
+
+.MayorCircle{
+    background-color:rgb(146, 140, 61);
+}
+
+
+.MenorCircle{
+    background:rgb(43, 27, 138);
+}
+
+
+.MayorigualCircle{
+    background:rgb(255, 142, 142);
+}
+
+
+.MenorigualCircle{
+    background-color:rgb(117, 109, 136);
+}
+
+
+.ComparacionIgualCircrle{
+    background:rgb(88, 190, 97);
+}
+
+.ExclamacionCircle{
+    background:rgb(0, 135, 153);
+}
+
+
+.DiferenteCircle{
+    background:rgb(148, 132, 207);
+}
+
+
+.ParentesisAbreCircle{
+    background:rgb(14, 26, 11);
+}
+
+.ParentesisCierraCircle{
+    background:rgb(145, 255, 0);
+}
+.grid-container {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+.grid-item {
+/*background-color: rgba(255, 255, 255, 0.8);*/
+padding: 20px;
+font-size: 20px;
+text-align: center;
+}
+
+body{
+    background-color: black;
+    padding: 40px;
+    margin: 60px;
+}
+
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
