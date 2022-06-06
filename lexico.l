@@ -107,7 +107,7 @@ void saveValues(string token, string texto){
 };
 
 void createHTML(){
-    ofstream page("page.html");
+    ofstream page("index.html");
 
     page << "<head>\n\t<link rel=\"stylesheet\" href=\"static/design.css\">\n</head>\n<body>\n" ;
     page << "<h1>Syntax Highlighter</h1>\n";
