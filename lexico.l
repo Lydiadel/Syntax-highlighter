@@ -99,3 +99,16 @@ KEYWORDS "if"|"IF"|"while"|"WHILE"|"for"|"FOR"|"int"|"INT"|"else"|"ELSE"|"class"
 
 %%
 
+string val="";
+void saveValues(string token, string texto){
+    val += "\t<p class = \"" + token + "\">" + texto + "</p>\n";
+    createHTML();
+};
+
+void createHTML(){
+    ofstream page("page.html");
+    page << "<head>\n\t<link rel=\"stylesheet\" href=\"design.css\">\n</head>\n<body>\n" ;
+    page << "<h1> Hello world </h1>";
+    page << val ;
+    page.close();
+};
