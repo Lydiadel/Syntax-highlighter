@@ -14,3 +14,4 @@ fa == 45
 sk = 34
 print("hola")
 void(var);
+()
