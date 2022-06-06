@@ -11,11 +11,19 @@
 }
 
 .Keyword{
-    color:rgb(255, 0, 64);
+    color:rgb(255, 0, 132);
+}
+
+.DosPuntos{
+    color:rgb(70, 135, 94);
 }
 
 .Suma{
     color:rgb(229, 174, 255);
+}
+
+.Resta{
+    color:rgb(174, 0, 255);
 }
 
 .Punto{
@@ -24,7 +32,7 @@
 
 
 .Coma{
-    color:rgb(68, 36, 36);
+    color:rgb(120, 93, 71);
 }
 
 
@@ -34,7 +42,7 @@
 
 
 .Multiplicacion{
-    color:rgb(255, 4, 87);
+    color:rgb(255, 4, 4);
 }
 
 
@@ -44,7 +52,7 @@
 
 
 .Potencia{
-    color:rgb(92, 76, 66);
+    color:rgb(98, 98, 98);
 }
 
 
@@ -86,7 +94,7 @@
 }
 
 .Exclamacion{
-    color:rgb(0, 135, 153);
+    color:rgb(153, 0, 150);
 }
 
 
@@ -96,11 +104,11 @@
 
 
 .ParentesisAbre{
-    color:rgb(14, 26, 11);
+    color: rgb(0, 132, 255);
 }
 
 .ParentesisCierra{
-    color:rgb(145, 255, 0);
+    color:rgb(255, 153, 0);
 }
 
 
@@ -117,11 +125,19 @@
 }
 
 .KeywordCircle{
-    background:rgb(255, 0, 64);
+    background:rgb(255, 0, 132);
+}
+
+.DosPuntosCircle{
+    background:rgb(70, 135, 94);
 }
 
 .SumaCircle{
     background:rgb(229, 174, 255);
+}
+
+.RestaCircle{
+    background:rgb(174, 0, 255);
 }
 
 .PuntoCircle{
@@ -130,7 +146,7 @@
 
 
 .ComaCircle{
-    background:rgb(68, 36, 36);
+    background:rgb(120, 93, 71);
 }
 
 
@@ -140,7 +156,7 @@
 
 
 .MultiplicacionCircle{
-    background:rgb(255, 4, 87);
+    background:rgb(255, 4, 4);
 }
 
 
@@ -150,7 +166,7 @@
 
 
 .PotenciaCircle{
-    background:rgb(92, 76, 66);
+    background:rgb(98, 98, 98);
 }
 
 
@@ -187,12 +203,12 @@
 }
 
 
-.ComparacionIgualCircrle{
+.ComparacionIgualCircle{
     background:rgb(88, 190, 97);
 }
 
 .ExclamacionCircle{
-    background:rgb(0, 135, 153);
+    background:rgb(153, 0, 150);
 }
 
 
@@ -202,11 +218,11 @@
 
 
 .ParentesisAbreCircle{
-    background:rgb(14, 26, 11);
+    background:rgb(0, 132, 255);
 }
 
 .ParentesisCierraCircle{
-    background:rgb(145, 255, 0);
+    background:rgb(255, 153, 0);
 }
 .grid-container {
     display: grid;
@@ -216,6 +232,9 @@
     
     padding: 10px;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
   }
   
 .grid-item {
@@ -228,7 +247,9 @@ text-align: center;
 body{
     background-color: black;
     padding: 40px;
-    margin: 60px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .circle{
@@ -236,4 +257,27 @@ body{
     width: 25px;
     border-radius: 50%;
     display: inline-block;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.grid-container-token{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-weight: bold;
+  }
+
+.grid-item-token{
+padding: 20px;
+font-size: 20px;
 }
