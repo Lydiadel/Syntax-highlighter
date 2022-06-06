@@ -1,0 +1,104 @@
+.Variable{
+    color:aqua;
+}
+
+.NumeroEntero{
+    color:rgb(15, 107, 107);
+}
+
+.NumeroReal{
+    color:rgb(123, 255, 0);
+}
+
+.Keyword{
+    color:rgb(255, 0, 64);
+}
+
+.Suma{
+    color:rgb(229, 174, 255);
+}
+
+.Punto{
+    color:rgb(71, 23, 243);
+}
+
+
+.Coma{
+    color:rgb(68, 36, 36);
+}
+
+
+.PuntoyComa{
+    color:rgb(233, 114, 183);
+}
+
+
+.Multiplicacion{
+    color:rgb(255, 4, 87);
+}
+
+
+.Division{
+    color:rgb(245, 239, 153);
+}
+
+
+.Potencia{
+    color:rgb(92, 76, 66);
+}
+
+
+.Funcion{
+    color:rgb(255, 235, 55);
+}
+
+.Comentario{
+    color:rgb(117, 156, 105);
+}
+
+.Igual{
+    color:rgb(0, 0, 0);
+}
+
+
+.Mayor{
+    color:rgb(146, 140, 61);
+}
+
+
+.Menor{
+    color:rgb(43, 27, 138);
+}
+
+
+.Mayorigual{
+    color:rgb(255, 142, 142);
+}
+
+
+.Menorigual{
+    color:rgb(117, 109, 136);
+}
+
+
+.ComparacionIgual{
+    color:rgb(88, 190, 97);
+}
+
+.Exclamacion{
+    color:rgb(0, 135, 153);
+}
+
+
+.Diferente{
+    color:rgb(148, 132, 207);
+}
+
+
+.ParentesisAbre{
+    color:rgb(14, 26, 11);
+}
+
+.ParentesisCierra{
+    color:rgb(145, 255, 0);
+}
