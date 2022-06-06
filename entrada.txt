@@ -1,0 +1,16 @@
+Mkks4_56 45
+^
+-45 - 56
+56 * 5.45
+FLOAT
+5 - 3
+// jasjajs
+-3
+azucar
+56.34
+For int 
+!= break
+fa == 45
+sk = 34
+print("hola")
+void(var);
