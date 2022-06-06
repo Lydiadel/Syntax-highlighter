@@ -101,14 +101,29 @@ KEYWORDS "if"|"IF"|"while"|"WHILE"|"for"|"FOR"|"int"|"INT"|"else"|"ELSE"|"class"
 
 string val="";
 void saveValues(string token, string texto){
-    val += "\t<p class = \"" + token + "\">" + texto + "</p>\n";
+    val += "\n<p class = \"" + token + "\">" + texto + "</p>";
+    val += "\t<p class = \"" + token + "\">" +  + "</p>";
     createHTML();
 };
 
 void createHTML(){
     ofstream page("page.html");
-    page << "<head>\n\t<link rel=\"stylesheet\" href=\"design.css\">\n</head>\n<body>\n" ;
-    page << "<h1> Hello world </h1>";
+
+    page << "<head>\n\t<link rel=\"stylesheet\" href=\"static/design.css\">\n</head>\n<body>\n" ;
+    page << "<h1>Syntax Highlighter</h1>\n";
+    page << "<div class='grid-container'>";
+    page << "<div class='grid-item'>Numero Entero <span class=\"circle NumeroEnteroCircle\"></span></div>";
+    page << "<div class='grid-item'>Numero Real <span class=\"circle NumeroRealCircle\"></span></div>";
+    page << "<div class='grid-item'>Resta <span class=\"circle RestaCircle\"></span></div>" ; 
+    page << "<div class='grid-item'>Keyword <span class=\"circle KeywordCircle\"></span></div>" ; 
+    page << "<div class='grid-item'>Suma <span class=\"circle SumaCircle\"></span></div>" ; 
+    page << "<div class='grid-item'>Variable <span class=\"circle VariableCircle\"></span></div>" ; 
+    page << "<div class='grid-item'>Multiplicacion <span class=\"circle MultiplicacionCircle\"></span></div>" ; 
+    page << "<div class='grid-item'>Potencia <span class=\"circle PotenciaCircle\"></span></div>" ; 
+    page << "<div class='grid-item'>Punto <span class=\"circle PuntoCircle\"></span></div>"; 
+    page << "</div>";
+    page << "<h1> Hello world </h1>\n\n";
     page << val ;
+    page << "</body>";
     page.close();
 };
